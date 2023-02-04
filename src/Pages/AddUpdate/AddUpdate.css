@@ -1,0 +1,53 @@
+.add_student{
+    margin: 2em;
+    margin-top: 6em;
+}
+.add_student form{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.add_student form div{
+    width: 100%;
+    display: flex;
+    gap: 1.5em;
+}
+
+.add_student form input{
+    padding: 0.7em 1em;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 1.03em;
+    outline: none;
+}
+.add_student form select{
+    padding: 0.7em 0.5em;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    /* font-size: 1.03em; */
+    outline: none;
+}
+.add_student form input::placeholder{
+    color: gray;
+    font-weight: 100;
+}
+
+.add_student form button{
+    padding: 0.7em 1em;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #F33823;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 0.3em;
+    font-size: 1.01em;
+}
+
+.add_student form button:hover{
+    transform: translateY(-2px);
+}

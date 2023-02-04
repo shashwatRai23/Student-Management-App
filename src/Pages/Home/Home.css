@@ -1,0 +1,94 @@
+.student {
+  margin: 2em;
+  margin-top: 6em;
+}
+
+.functional_icons {
+  color: red;
+  margin: 0 0.5em;
+  /* background-color: red; */
+  transform: scale(1.5);
+    padding: 0.3em;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.functional_icons:hover{
+    background-color: #dddddd;
+}
+
+.student_table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 2em;
+  font-size: 0.9em;
+  /* font-family: sans-serif; */
+  /* max-width: 1000px; */
+  width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.student_table thead tr {
+  background-color: #f44336;
+  /* color: #fff; */
+  text-align: left;
+}
+
+.student_table th{
+    background-color: #f44336;
+    color: white;
+}
+.student_table th,
+.student_table td {
+  padding: 12px 15px;
+  
+}
+
+.student_table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.student_table tbody tr:nth-of-type(even) td {
+  background-color: #FFF6F5;
+}
+
+.student_table tbody tr:last-of-type {
+  border-bottom: 1px solid #f63997;
+}
+/* .btn {
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-edit {
+  background-color: #008cba;
+}
+.btn-delete {
+  background-color: #f44336;
+}
+.btn-view {
+  background-color: #e7e7e7;
+  color: black;
+}
+.dropdown {
+  width: 20%;
+  margin: 5px;
+}
+.btn-reset {
+  background-color: crimson;
+  color: white;
+}
+.btn-active {
+  background-color: green;
+  color: white;
+}
+.btn-inactive {
+  background-color: gray;
+  color: white;
+} */
